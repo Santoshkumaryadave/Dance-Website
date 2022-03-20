@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@100;200&family=Overpass:wght@100&family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@100;200&family=Overpass:wght@100&family=Ramaraja&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo {
+    
+    position: absolute;
+    left: 100px;
+    display: flex;
+    color: white;
+}
+#logo img{
+    filter: invert(0);
+    height: 30px;
+    width: 35px;
+}
+#logo h4{
+    font-family: 'Ramaraja', serif;
+    font-size: 20px;
+
+}
+#navbar{
+     margin: 0px 0px;
+     font-family: 'Ramaraja', serif;
+}
+#navbar li{
+    list-style: none;
+    margin: 0px 11px;
+    padding: 0px 17px;
+     
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+#navbar li a:hover{
+    color: rgb(167, 232, 238);
+}
+#navbar ul{
+    background-color: rgb(255 123 19);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Ramaraja', serif;
+}
+#intro{
+    padding-bottom: 20px;
+    font-family: 'Ramaraja', serif;
+    color:  #ff7b13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/pg1.jpg");
+    height: 400px;
+}
+#intro div h1{
+    font-size: 45px;
+    margin: 0px;
+}
+.small{
+    font-size: 24px;
+    margin: -21px;
+}
+#mission{
+    text-align: center;
+    height: 300px;
+    font-family: 'Ramaraja', serif;
+}
+#mission .outer {
+    justify-content: center;
+    display: flex;
+   
+}
+.card{
+    display: inline-block;
+    height: 222px;
+    width: 23%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 6px 20px;
+    padding: 0px 0px;
+}
+.card-box{
+    display: flex;
+}
+.card .card-box img{
+    width: 135px;
+    height: 187px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card .card-content{
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin: 0px;
+    padding: 44px 0px;
+}
+#sponser{
+    text-align: center;
+    height: 300px;
+    /* background-color: rgb(177, 226, 43); */
+    font-family: 'Ramaraja', serif;
+
+}
+.sponserimg{
+    height: 120px;
+    margin: auto;
+}
+.sponserimg img{
+    height: 118px;
+    margin: 22px 79px;
+}
+
+
+#footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Ramaraja', serif;
+}

@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title SKY Dance Acedemy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+              img(src="/static/images/pic3.png",)
+              h4 SKYDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#intro
+     div
+       h1 Welcome  To SKY Dance Acedemy
+     div.small Dance India Dance
+   
+    section#mission 
+       h2 Our Mission 
+       div.outer
+        div.card 
+          h3 Dance with Perfection
+          div.card-box 
+             div.card-img
+               img(src="/static/images/pic3.png",)
+             div.card-content 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        div.card 
+          h3 Dance as you like 
+           div.card-box 
+             div.card-img
+               img(src="/static/images/pic4.png",)
+             div.card-content 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        div.card 
+          h3 Best Teaching Dance Acedemy  
+           div.card-box 
+             div.card-img
+               img(src="/static/images/pic6.png",)
+             div.card-content 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    section#sponser
+       h2 Our Sponser
+       div.sponserimg
+          img(src="/static/logo/logo1.png", alt="sponser image", Class=spimage)
+          img(src="/static/logo/logo2.png", alt="sponser image", Class=spimage)
+          img(src="/static/logo/logo4.png", alt="sponser image", Class=spimage)
+          img(src="/static/logo/logo5.png", alt="sponser image", Class=spimage)
+              
+    footer#footer
+       |copyright © 2022 skydanceacedamy.com | All right reserved.
+    script
+      include ../static/index.js   
